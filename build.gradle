@@ -18,6 +18,7 @@ dependencies {
     testImplementation 'org.junit.jupiter:junit-jupiter:5.5.1'
     implementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '3.141.59'
     testImplementation 'org.seleniumhq.selenium:selenium-chrome-driver:3.141.59'
+    testImplementation("io.github.bonigarcia:webdrivermanager:4.3.1")
 }
 
 test {
